@@ -1,6 +1,8 @@
 import json
 import csv
 
+##curl https://api.mercadolibre.com/sites/MLB/categories/all > mlb.gz
+
 def find_structure_with_id_name(json_data):
     extracted_data = []
 
